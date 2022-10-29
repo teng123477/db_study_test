@@ -1,0 +1,59 @@
+@charset "UTF-8";
+* {
+  font-family: "微軟正黑體";
+}
+
+.cMemberTemplate, .cMemberAttr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cMemberTemplate {
+  display: none; /*Template 不顯示*/
+}
+
+.cBastAttr {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cSaveButton {
+  background-color: #0074e7;
+  color:aliceblue;
+  padding: 3px 5px 3px 5px;
+  font-weight: 600;
+}
+
+.cRemoveButton {
+  background-color: #ef3485;
+  color:aliceblue;
+  padding: 3px 5px 3px 5px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.cControlButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.cControlButton .cNewButton {
+  background-color: #83d63b;
+  color:aliceblue;
+  padding: 3px 5px 3px 5px;
+  font-weight: 600;
+  margin-right: 10px;
+}
+
+.cButtonAttr {
+  user-select: none;
+  cursor: pointer;
+}
+
+.cButtonAttr:hover {
+  opacity: 0.7;
+}
